@@ -1,0 +1,30 @@
+# Archivos locales del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# Dependencias y artefactos generados
+node_modules/
+dist/
+build/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+target/
+
+# Logs, caches y temporales
+*.log
+.cache/
+.tmp/
+tmp/
+*.tmp
+*.temp
