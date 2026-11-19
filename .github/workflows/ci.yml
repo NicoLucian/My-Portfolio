@@ -15,3 +15,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify repository documentation
         run: test -s README.md
+      - name: Lint Markdown
+        run: npx --yes markdownlint-cli2 "README.md" "pilotos/*.md"
